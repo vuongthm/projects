@@ -1,0 +1,16 @@
+# Local tooling and credentials; keep Markdown/media/workflows as source
+node_modules/
+.cache/
+.env*
+!.env.example
+passwords.json
+.private-vault/
+.DS_Store
+
+# Owner-only local instructions (not publication source)
+.local-docs/
+/OWNER-NOTES.md
+/GITHUB-PUSH-GUIDE.md
+/REPOSITORY.md
+/DEPLOYMENT.md
+/CLEANUP.md

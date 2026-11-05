@@ -1,0 +1,18 @@
+{
+  "id": "projects",
+  "adapter": "projects",
+  "title": {
+    "vi": "Dự án cá nhân",
+    "en": "Personal projects",
+    "ja": "個人プロジェクト",
+    "zh": "个人项目"
+  },
+  "description": {
+    "vi": "Dự án cá nhân",
+    "en": "Personal projects",
+    "ja": "個人プロジェクト",
+    "zh": "个人项目"
+  },
+  "order": 70,
+  "mediaNamespace": "projects"
+}
