@@ -1,0 +1,5 @@
+# Copy these entries into local.properties, then add your local Android SDK path if needed.
+# This sample contains no functional credentials. Never commit local.properties.
+VIRUSTOTAL_API_KEY=
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_UPLOAD_PRESET=

@@ -1,0 +1,23 @@
+# Laravel application files
+**/.env
+**/.env.*
+!**/.env.example
+**/vendor/
+**/node_modules/
+**/public/build/
+**/public/hot
+**/public/storage
+**/storage/logs/*.log
+**/storage/framework/cache/data/*
+**/storage/framework/sessions/*
+**/storage/framework/views/*
+**/storage/app/public/*
+**/storage/app/private/*
+**/database/*.sqlite
+**/.phpunit.cache/
+**/.phpunit.result.cache
+!**/.gitignore
+# Local editor files
+.DS_Store
+.idea/
+.vscode/

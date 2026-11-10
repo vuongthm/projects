@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Seek a Job</title>
+<desc id="desc">An understated editorial cover with a quiet open doorway, referring to the next step in a job search. </desc>
+<style>
+:root { color-scheme: light dark; --paper:#F6F3EA; --ink:#283D32; --sub:#617267; --accent:#B46B4B; --arch:#E5E8DA; --inside:#FDFCF6; --door:#C7D2BC; --hair:#C8CEC0; }
+@media (prefers-color-scheme: dark) { :root { --paper:#1D2522; --ink:#EAEADF; --sub:#B6C0B3; --accent:#D6A080; --arch:#293730; --inside:#35483B; --door:#607966; --hair:#627369; } }
+.bg{fill:var(--paper)} .ink{fill:var(--ink)} .sub{fill:var(--sub)} .fine{stroke:var(--hair);stroke-width:2;fill:none} .forest{stroke:var(--ink);fill:none;stroke-width:4;stroke-linejoin:round;stroke-linecap:round}
+.title{font-family:Georgia,'Palatino Linotype','Liberation Serif',serif;font-weight:400;letter-spacing:-7px;fill:var(--ink)}
+.sans{font-family:'Inter','Lato',Arial,sans-serif;fill:var(--sub)}
+</style>
+<rect width="1600" height="900" class="bg"/>
+<text x="126" y="122" font-size="20" class="sans" letter-spacing="3.4">A WEB PROJECT</text>
+<text x="1470" y="122" text-anchor="end" font-size="20" class="sans" letter-spacing="2">2024</text>
+<text x="118" y="379" class="title" font-size="152">Seek</text>
+<text x="118" y="541" class="title" font-size="152">a Job</text>
+<path d="M126 587 C170 585 216 588 265 585" stroke="var(--accent)" stroke-width="5" fill="none" stroke-linecap="round"/>
+<text x="127" y="665" class="sans" font-size="29" letter-spacing="0.2">A place to look for work,</text>
+<text x="127" y="708" class="sans" font-size="29" letter-spacing="0.2">and a way to take the next step.</text>
+<text x="127" y="806" class="sans" font-size="18" letter-spacing="2.2">LARAVEL   /   RECRUITMENT</text>
+<path d="M989 746 L989 329 C989 208 1084 136 1212 136 C1342 136 1432 210 1432 329 L1432 746 Z" fill="var(--arch)"/>
+<path d="M989 746 L989 329 C989 208 1084 136 1212 136 C1342 136 1432 210 1432 329 L1432 746" class="forest"/>
+<path d="M1047 745 L1047 335 C1047 246 1110 190 1212 190 C1312 190 1375 245 1375 335 L1375 745 Z" fill="var(--inside)"/>
+<path d="M1047 745 L1047 335 C1047 246 1110 190 1212 190 C1312 190 1375 245 1375 335 L1375 745" stroke="var(--hair)" stroke-width="3" fill="none"/>
+<path d="M1221 311 L1386 265 L1386 713 L1221 746 Z" fill="var(--door)" stroke="var(--ink)" stroke-width="4" stroke-linejoin="round"/>
+<path d="M1220 312 L1220 745" stroke="var(--ink)" stroke-width="3.5"/>
+<path d="M1244 325 L1244 729" stroke="var(--hair)" stroke-width="2" fill="none"/>
+<circle cx="1351" cy="491" r="7" fill="var(--accent)"/>
+<path d="M930 748 C1070 747 1179 749 1297 747 C1395 744 1444 748 1488 747" class="fine"/>
+<path d="M950 747 C951 707 951 680 948 645 M950 691 C931 682 924 661 926 647 M950 676 C966 665 973 647 971 634" stroke="var(--sub)" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M948 690 C930 693 920 681 919 672 C934 669 944 679 948 690 Z" fill="var(--arch)" stroke="var(--sub)" stroke-width="2"/>
+<path d="M952 675 C959 653 974 652 982 654 C974 667 962 674 952 675 Z" fill="var(--arch)" stroke="var(--sub)" stroke-width="2"/>
+</svg>

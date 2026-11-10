@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="315" viewBox="0 0 1600 900" role="img">
+<defs>
+<linearGradient id="teal" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#43D9CB"/><stop offset="1" stop-color="#5A96FF"/></linearGradient>
+<linearGradient id="nebula" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#232E59"/><stop offset="1" stop-color="#073D4A"/></linearGradient>
+<linearGradient id="soft" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#182D48"/><stop offset="1" stop-color="#102335"/></linearGradient>
+<filter id="shadow" x="-40%" y="-40%" width="200%" height="200%"><feGaussianBlur stdDeviation="22"/></filter>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#43D9CB"/></marker>
+<marker id="arrowblue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5A96FF"/></marker>
+<marker id="arrowmuted" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7290A5"/></marker>
+</defs>
+<circle cx="1160" cy="475" r="317" fill="#68E2D4" stroke="none" stroke-width="1" opacity="0.07"/>
+<circle cx="1320" cy="525" r="248" fill="#AD90FF" stroke="none" stroke-width="1" opacity="0.07"/>
+<rect x="62" y="72" width="9" height="57" rx="5" fill="#43D9CB" stroke="none" stroke-width="1" opacity="1"/>
+<text x="88" y="100" fill="#327A91" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="700" text-anchor="start" opacity="1" letter-spacing="2">DISTRIBUTED SYSTEMS  /  SECURITY  /  PYTHON</text>
+<text x="78" y="217" fill="#0E2939" font-family="DejaVu Sans,sans-serif" font-size="82" font-weight="800" text-anchor="start" opacity="1">Blockchain</text>
+<text x="78" y="316" fill="#11858C" font-family="DejaVu Sans,sans-serif" font-size="80" font-weight="800" text-anchor="start" opacity="1">P2P Network</text>
+<text x="80" y="380" fill="#506B7C" font-family="DejaVu Sans,sans-serif" font-size="26" font-weight="400" text-anchor="start" opacity="1">A hands-on blockchain simulation built</text>
+<text x="80" y="415" fill="#506B7C" font-family="DejaVu Sans,sans-serif" font-size="26" font-weight="400" text-anchor="start" opacity="1">around peer synchronization, digital signatures,</text>
+<text x="80" y="450" fill="#506B7C" font-family="DejaVu Sans,sans-serif" font-size="26" font-weight="400" text-anchor="start" opacity="1">and Proof-of-Work mining.</text>
+<rect x="79" y="504" width="154" height="40" rx="20" fill="#ECF9F8" stroke="#B2E3DC" stroke-width="1.5" opacity="1"/>
+<text x="156.0" y="530" fill="#147B7E" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="700" text-anchor="middle" opacity="1">PYTHON</text>
+<rect x="248" y="504" width="154" height="40" rx="20" fill="#EDF1FF" stroke="#C8D3FA" stroke-width="1.5" opacity="1"/>
+<text x="325.0" y="530" fill="#465FC0" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="700" text-anchor="middle" opacity="1">FLASK</text>
+<rect x="417" y="504" width="154" height="40" rx="20" fill="#F3EEFF" stroke="#DBCAFA" stroke-width="1.5" opacity="1"/>
+<text x="494.0" y="530" fill="#8067C4" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="700" text-anchor="middle" opacity="1">ECDSA</text>
+<rect x="79" y="561" width="154" height="40" rx="20" fill="#EDF1FF" stroke="#C8D3FA" stroke-width="1.5" opacity="1"/>
+<text x="156.0" y="587" fill="#465FC0" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="700" text-anchor="middle" opacity="1">SHA-256</text>
+<rect x="248" y="561" width="154" height="40" rx="20" fill="#ECF9F8" stroke="#B2E3DC" stroke-width="1.5" opacity="1"/>
+<text x="325.0" y="587" fill="#147B7E" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="700" text-anchor="middle" opacity="1">P2P / HTTP</text>
+<text x="80" y="735" fill="#247E85" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="700" text-anchor="start" opacity="1" letter-spacing="2">WALLET → TRANSACTION → MEMPOOL → BLOCK → PEERS</text>
+<text x="79" y="788" fill="#567585" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="600" text-anchor="start" opacity="1">EDUCATIONAL PROTOTYPE  •  NOT A PRODUCTION CRYPTOCURRENCY</text>
+<line x1="880" y1="252" x2="1260" y2="190" stroke="#B0C9D0" stroke-width="5" stroke-linecap="round" opacity="0.45" stroke-dasharray="10 13"/>
+<line x1="1260" y1="190" x2="1370" y2="515" stroke="#B0C9D0" stroke-width="5" stroke-linecap="round" opacity="0.45" stroke-dasharray="10 13"/>
+<line x1="1370" y1="515" x2="1010" y2="653" stroke="#B0C9D0" stroke-width="5" stroke-linecap="round" opacity="0.45" stroke-dasharray="10 13"/>
+<line x1="1010" y1="653" x2="880" y2="252" stroke="#B0C9D0" stroke-width="5" stroke-linecap="round" opacity="0.45" stroke-dasharray="10 13"/>
+<line x1="880" y1="252" x2="1370" y2="515" stroke="#B0C9D0" stroke-width="5" stroke-linecap="round" opacity="0.45" stroke-dasharray="10 13"/>
+<line x1="1260" y1="190" x2="1010" y2="653" stroke="#B0C9D0" stroke-width="5" stroke-linecap="round" opacity="0.45" stroke-dasharray="10 13"/>
+<circle cx="880" cy="252" r="113" fill="#43D9CB" stroke="none" stroke-width="1" opacity="0.14"/>
+<circle cx="880" cy="252" r="100" fill="#112C43" stroke="#43D9CB" stroke-width="4" opacity="1"/>
+<circle cx="880" cy="217" r="19" fill="#43D9CB" stroke="none" stroke-width="1" opacity="1"/>
+<text x="880" y="270" fill="#F5F8FD" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="800" text-anchor="middle" opacity="1">NODE A</text>
+<text x="880" y="301" fill="#BDD4E0" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="600" text-anchor="middle" opacity="1">PORT 5000</text>
+<circle cx="1260" cy="190" r="103" fill="#AD90FF" stroke="none" stroke-width="1" opacity="0.14"/>
+<circle cx="1260" cy="190" r="90" fill="#112C43" stroke="#AD90FF" stroke-width="4" opacity="1"/>
+<circle cx="1260" cy="155" r="19" fill="#AD90FF" stroke="none" stroke-width="1" opacity="1"/>
+<text x="1260" y="208" fill="#F5F8FD" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="800" text-anchor="middle" opacity="1">NODE B</text>
+<text x="1260" y="239" fill="#BDD4E0" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="600" text-anchor="middle" opacity="1">PORT 5001</text>
+<circle cx="1370" cy="515" r="111" fill="#5A96FF" stroke="none" stroke-width="1" opacity="0.14"/>
+<circle cx="1370" cy="515" r="98" fill="#112C43" stroke="#5A96FF" stroke-width="4" opacity="1"/>
+<circle cx="1370" cy="480" r="19" fill="#5A96FF" stroke="none" stroke-width="1" opacity="1"/>
+<text x="1370" y="533" fill="#F5F8FD" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="800" text-anchor="middle" opacity="1">NODE C</text>
+<text x="1370" y="564" fill="#BDD4E0" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="600" text-anchor="middle" opacity="1">PORT 5002</text>
+<rect x="790" y="629" width="145" height="92" rx="16" fill="#17364A" stroke="#43D9CB" stroke-width="2" opacity="1"/>
+<text x="862" y="664" fill="#9BEEDE" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="700" text-anchor="middle" opacity="1">BLOCK 00</text>
+<text x="862" y="693" fill="#B0C4D4" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="500" text-anchor="middle" opacity="1">SHA-256</text>
+<line x1="936" y1="677" x2="950" y2="681" stroke="#22ADAE" stroke-width="3" stroke-linecap="round" opacity="1"/>
+<rect x="940" y="679" width="145" height="92" rx="16" fill="#17364A" stroke="#43D9CB" stroke-width="2" opacity="1"/>
+<text x="1012" y="714" fill="#9BEEDE" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="700" text-anchor="middle" opacity="1">BLOCK 01</text>
+<text x="1012" y="743" fill="#B0C4D4" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="500" text-anchor="middle" opacity="1">SHA-256</text>
+<line x1="1086" y1="727" x2="1100" y2="731" stroke="#22ADAE" stroke-width="3" stroke-linecap="round" opacity="1"/>
+<rect x="1090" y="729" width="145" height="92" rx="16" fill="#17364A" stroke="#43D9CB" stroke-width="2" opacity="1"/>
+<text x="1162" y="764" fill="#9BEEDE" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="700" text-anchor="middle" opacity="1">BLOCK 02</text>
+<text x="1162" y="793" fill="#B0C4D4" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="500" text-anchor="middle" opacity="1">SHA-256</text>
+<line x1="1236" y1="777" x2="1250" y2="781" stroke="#22ADAE" stroke-width="3" stroke-linecap="round" opacity="1"/>
+<rect x="1240" y="779" width="145" height="92" rx="16" fill="#17364A" stroke="#43D9CB" stroke-width="2" opacity="1"/>
+<text x="1312" y="814" fill="#9BEEDE" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="700" text-anchor="middle" opacity="1">BLOCK 03</text>
+<text x="1312" y="843" fill="#B0C4D4" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="500" text-anchor="middle" opacity="1">SHA-256</text>
+</svg>

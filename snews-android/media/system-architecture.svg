@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="690" viewBox="0 0 1600 690" role="img" aria-labelledby="t d">
+<title id="t">SNews application architecture</title>
+<desc id="d">The Compose interface uses ViewModels and repositories. Repositories communicate directly with Firebase, VirusTotal, Cloudinary and RSS sources; ML Kit translation runs within the app.</desc>
+<style>
+:root{color-scheme:light dark;--bg:#F7F7F3;--ink:#283842;--muted:#586B73;--line:#A7B4B8;--accent:#B46D4B;--light:#E7EAE7}
+@media (prefers-color-scheme:dark){:root{--bg:#20292D;--ink:#EEF0EB;--muted:#BBC6C6;--line:#7C9095;--accent:#DDA581;--light:#344043}}
+.bg{fill:var(--bg)} .ink{fill:var(--ink)} .muted{fill:var(--muted)}.sep{stroke:var(--line);stroke-width:2} .arrow{stroke:var(--accent);stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}.rule{stroke:var(--line);stroke-width:1.4;fill:none}
+.label{font: 18px Arial,sans-serif;letter-spacing:2.8px;fill:var(--muted)}.head{font:52px Georgia,serif;fill:var(--ink)}.item{font:31px Georgia,serif;fill:var(--ink)}.detail{font:22px Arial,sans-serif;fill:var(--muted)}
+</style>
+<rect width="1600" height="690" class="bg"/>
+<text x="100" y="95" class="label">SNEWS / APPLICATION DESIGN</text>
+<text x="100" y="168" class="head">A small app, several sources.</text>
+<path d="M100 208H1500" class="sep"/>
+<text x="100" y="260" class="label">ON THE DEVICE</text>
+<text x="760" y="260" class="label">CONNECTED SERVICES</text>
+<path d="M695 255V584" class="sep"/>
+<text x="100" y="334" class="item">Jetpack Compose</text><text x="100" y="372" class="detail">Screens and reading experience</text>
+<path d="M103 404H565" class="rule"/>
+<text x="100" y="453" class="item">ViewModels</text><text x="100" y="490" class="detail">State and user actions</text>
+<path d="M103 517H565" class="rule"/>
+<text x="100" y="561" class="item">Repositories</text><text x="100" y="601" class="detail">Data access, network requests</text>
+<path d="M592 557H748" class="arrow"/><path d="M736 548L749 557L736 566" class="arrow"/>
+<text x="785" y="329" class="item">Firebase</text><text x="785" y="363" class="detail">Accounts, articles and reports</text>
+<path d="M785 390H1460" class="rule"/>
+<text x="785" y="444" class="item">VirusTotal</text><text x="785" y="479" class="detail">URL and file analysis</text>
+<path d="M785 505H1460" class="rule"/>
+<text x="785" y="556" class="item">Cloudinary · RSS</text><text x="785" y="590" class="detail">Report images · news feeds</text>
+<text x="100" y="660" class="detail">ML Kit provides translation on the device.</text>
+</svg>

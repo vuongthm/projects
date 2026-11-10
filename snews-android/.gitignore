@@ -1,0 +1,9 @@
+# Repository-wide editor files and local service configuration
+**/.idea/
+**/.gradle/
+**/build/
+**/local.properties
+**/google-services.json
+*.jks
+*.keystore
+.DS_Store

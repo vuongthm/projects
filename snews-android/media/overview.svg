@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">SNews Android</title>
+<desc id="desc">An editorial SNews cover: large typography and a single folded newspaper marked with a magnifying glass, representing reading and link checking. </desc>
+<style>
+:root { color-scheme:light dark; --paper:#F5F3EF; --ink:#28353B; --muted:#65747B; --rule:#BFC7C6; --sheet:#FDFCF9; --fold:#E5E8E6; --copper:#B56D4B; --picture:#DCE6E1; }
+@media (prefers-color-scheme:dark) { :root { --paper:#20292D; --ink:#EEF0EB; --muted:#B3C0C2; --rule:#697B7C; --sheet:#303B3E; --fold:#455257; --copper:#DA9C76; --picture:#40534F; } }
+.bg{fill:var(--paper)} .ink{fill:var(--ink)} .muted{fill:var(--muted)} .rule{stroke:var(--rule);fill:none;stroke-width:2} .serif{font-family:Georgia,'Palatino Linotype','Liberation Serif',serif;font-weight:400;fill:var(--ink)} .sans{font-family:'Inter','Lato',Arial,sans-serif;fill:var(--muted)}
+</style>
+<rect class="bg" width="1600" height="900"/>
+<text x="126" y="122" class="sans" font-size="20" letter-spacing="3">AN ANDROID PROJECT</text>
+<text x="1470" y="122" class="sans" font-size="20" letter-spacing="2" text-anchor="end">2025</text>
+<text x="118" y="394" font-size="153" class="serif" letter-spacing="-8">SNews</text>
+<path d="M126 443 C160 444 209 443 255 442" stroke="var(--copper)" stroke-width="5" fill="none" stroke-linecap="round"/>
+<text x="128" y="530" class="sans" font-size="31">Read what matters.</text>
+<text x="128" y="579" class="sans" font-size="31">Check what you open.</text>
+<text x="127" y="805" class="sans" font-size="18" letter-spacing="2.2">KOTLIN   /   NEWS &amp; SAFETY</text>
+<g transform="rotate(-5 1157 471)">
+ <path d="M942 183 L1379 183 L1432 244 L1432 740 L942 740 Z" fill="var(--sheet)" stroke="var(--ink)" stroke-width="3.2" stroke-linejoin="round"/>
+ <path d="M1379 183 L1379 244 L1432 244 Z" fill="var(--fold)" stroke="var(--ink)" stroke-width="2.4" stroke-linejoin="round"/>
+ <text x="980" y="233" class="sans" font-size="16" letter-spacing="2">A LITTLE NEWS, A LITTLE CAUTION</text>
+ <path d="M979 257 L1393 257" stroke="var(--ink)" stroke-width="2.2"/>
+ <text x="974" y="338" class="serif" font-size="68" letter-spacing="-3">The story.</text>
+ <text x="974" y="399" class="serif" font-size="68" letter-spacing="-3">The source.</text>
+ <path d="M982 433 L1391 433" class="rule"/>
+ <rect x="984" y="474" width="174" height="132" fill="var(--picture)"/>
+ <path d="M999 586 L1046 532 L1078 562 L1110 519 L1145 553" stroke="var(--muted)" stroke-width="2.7" fill="none" stroke-linejoin="round"/>
+ <circle cx="1035" cy="501" r="12" fill="var(--copper)" opacity="0.8"/>
+ <path d="M984 632 L1161 632 M984 653 L1159 653 M984 674 L1139 674 M984 696 L1149 696" class="rule"/>
+ <path d="M1196 481 L1375 481 M1196 503 L1375 503 M1196 526 L1355 526 M1196 548 L1371 548 M1196 570 L1361 570 M1196 592 L1375 592 M1196 614 L1347 614 M1196 636 L1375 636 M1196 658 L1360 658" class="rule"/>
+ <path d="M1197 700 L1380 700" stroke="var(--copper)" stroke-width="2.5" stroke-linecap="round"/>
+ <text x="1198" y="723" class="sans" font-style="italic" font-size="17">look twice</text>
+</g>
+<circle cx="1374" cy="621" r="76" fill="none" stroke="var(--copper)" stroke-width="6.5"/>
+<path d="M1429 677 L1490 748" stroke="var(--copper)" stroke-width="8" stroke-linecap="round"/>
+<path d="M1337 622 L1363 645 L1411 594" stroke="var(--copper)" stroke-width="5.7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

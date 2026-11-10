@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="DNS resolution and multi-AS BGP emulation lab">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d263e"/><stop offset="1" stop-color="#1e506b"/></linearGradient>
+ <linearGradient id="chip" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#2d849d"/><stop offset="1" stop-color="#27c2aa"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="17" flood-color="#091b2a" flood-opacity=".26"/></filter>
+ <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6fc9cf"/></marker>
+ </defs>
+ <rect width="1600" height="900" rx="34" fill="url(#bg)"/>
+ <circle cx="1530" cy="100" r="290" fill="#448ca0" opacity=".1"/><circle cx="100" cy="810" r="310" fill="#47a1a3" opacity=".08"/>
+ <rect x="80" y="82" width="327" height="48" rx="23" fill="#2c6680" opacity=".83"/>
+ <text x="104" y="113" font-family="DejaVu Sans" font-size="17" fill="#bcecf0" font-weight="700" text-anchor="start" >PNETLAB  /  NETWORK EMULATION</text>
+ <text x="80" y="243" font-family="DejaVu Sans" font-size="88" fill="#ffffff" font-weight="750" text-anchor="start" >DNS + BGP</text>
+ <text x="80" y="303" font-family="DejaVu Sans" font-size="39" fill="#cbe3eb" font-weight="600" text-anchor="start" >Resolution &amp; Routing Lab</text>
+ <text x="80" y="380" font-family="DejaVu Sans" font-size="25" fill="#dcf0f4" font-weight="500" text-anchor="start" >How DNS reaches the right server</text>
+ <text x="80" y="418" font-family="DejaVu Sans" font-size="25" fill="#dcf0f4" font-weight="500" text-anchor="start" >across independent networks.</text>
+ <rect x="80" y="504" width="520" height="2" fill="#5b9bae" opacity=".6"/>
+ <text x="80" y="558" font-family="DejaVu Sans" font-size="21" fill="#cfe5ed" font-weight="600" text-anchor="start" >8 autonomous systems   •   17 nodes</text>
+ <text x="80" y="596" font-family="DejaVu Sans" font-size="21" fill="#cfe5ed" font-weight="600" text-anchor="start" >Root → .vn → fpt.vn</text>
+ <text x="80" y="634" font-family="DejaVu Sans" font-size="21" fill="#cfe5ed" font-weight="600" text-anchor="start" >BIND9   •   FRRouting   •   IPv4 / IPv6</text>
+ <rect x="80" y="733" width="240" height="62" rx="16" fill="url(#chip)"/>
+ <text x="200" y="773" font-family="DejaVu Sans" font-size="22" fill="#fff" font-weight="700" text-anchor="middle" >DNS Resolution</text>
+ <rect x="335" y="733" width="236" height="62" rx="16" fill="#295f7c" stroke="#6eafbf"/>
+ <text x="453" y="773" font-family="DejaVu Sans" font-size="22" fill="#fff" font-weight="700" text-anchor="middle" >Multi-AS BGP</text>
+ <rect x="742" y="123" width="788" height="648" rx="36" fill="#e7f5f8" opacity=".97" filter="url(#shadow)"/>
+ <text x="788" y="177" font-family="DejaVu Sans" font-size="22" fill="#173b5e" font-weight="700" text-anchor="start" >DNS RESOLUTION PATH</text>
+ <rect x="785" y="203" width="182" height="118" rx="18" fill="#ffffff" stroke="#add5e0" stroke-width="2"/>
+ <rect x="1017" y="203" width="182" height="118" rx="18" fill="#ffffff" stroke="#add5e0" stroke-width="2"/>
+ <rect x="1250" y="203" width="225" height="118" rx="18" fill="#ffffff" stroke="#add5e0" stroke-width="2"/>
+ <text x="877" y="252" font-family="DejaVu Sans" font-size="26" fill="#173b5e" font-weight="700" text-anchor="middle" >Root</text><text x="877" y="281" font-family="DejaVu Sans" font-size="19" fill="#5f7790" font-weight="600" text-anchor="middle" >AS20144</text>
+ <text x="1108" y="252" font-family="DejaVu Sans" font-size="26" fill="#173b5e" font-weight="700" text-anchor="middle" >.vn TLD</text><text x="1108" y="281" font-family="DejaVu Sans" font-size="19" fill="#5f7790" font-weight="600" text-anchor="middle" >AS23902</text>
+ <text x="1362" y="252" font-family="DejaVu Sans" font-size="26" fill="#173b5e" font-weight="700" text-anchor="middle" >fpt.vn</text><text x="1362" y="281" font-family="DejaVu Sans" font-size="19" fill="#5f7790" font-weight="600" text-anchor="middle" >AS18403</text>
+ <path d="M969 260 H1015" stroke="#218f9b" stroke-width="5" marker-end="url(#arr)"/>
+ <path d="M1200 260 H1245" stroke="#218f9b" stroke-width="5" marker-end="url(#arr)"/>
+ <text x="788" y="389" font-family="DejaVu Sans" font-size="22" fill="#173b5e" font-weight="700" text-anchor="start" >BGP CONTROL PLANE</text>
+ <rect x="785" y="417" width="202" height="108" rx="17" fill="#dae9f4" stroke="#a8c4d6" stroke-width="2"/>
+ <rect x="1027" y="417" width="202" height="108" rx="17" fill="#dff3eb" stroke="#a4d8c8" stroke-width="2"/>
+ <rect x="1268" y="417" width="207" height="108" rx="17" fill="#dae9f4" stroke="#a8c4d6" stroke-width="2"/>
+ <text x="885" y="464" font-family="DejaVu Sans" font-size="23" fill="#173b5e" font-weight="700" text-anchor="middle" >ISP Routers</text><text x="885" y="493" font-family="DejaVu Sans" font-size="18" fill="#5f7790" font-weight="500" text-anchor="middle" >eBGP</text>
+ <text x="1128" y="463" font-family="DejaVu Sans" font-size="23" fill="#173b5e" font-weight="700" text-anchor="middle" >Route Server</text><text x="1128" y="493" font-family="DejaVu Sans" font-size="18" fill="#5f7790" font-weight="500" text-anchor="middle" >AS56156 / FRR</text>
+ <text x="1372" y="464" font-family="DejaVu Sans" font-size="23" fill="#173b5e" font-weight="700" text-anchor="middle" >ISP Routers</text><text x="1372" y="493" font-family="DejaVu Sans" font-size="18" fill="#5f7790" font-weight="500" text-anchor="middle" >eBGP</text>
+ <path d="M987 471 H1025" stroke="#218f9b" stroke-width="4" stroke-dasharray="8 6"/>
+ <path d="M1230 471 H1265" stroke="#218f9b" stroke-width="4" stroke-dasharray="8 6"/>
+ <rect x="785" y="577" width="690" height="122" rx="21" fill="#fff" stroke="#c4dde5" stroke-width="2"/>
+ <path d="M826 611 Q866 641 906 611 T986 611 T1066 611 T1146 611 T1226 611 T1306 611 T1386 611" stroke="#25a6a6" stroke-width="6" fill="none"/>
+ <text x="820" y="664" font-family="DejaVu Sans" font-size="20" fill="#173b5e" font-weight="650" text-anchor="start" >BGP selects reachable paths  •  DNS resolves names</text>
+ </svg>
