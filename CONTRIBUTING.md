@@ -8,6 +8,8 @@ id: projects-new-project
 title: Tên dự án
 description: Bài toán và kết quả chính.
 status: draft
+date: 2026-11-11
+year: "2026"
 category: Software
 stack: [TypeScript]
 repository: https://example.com/source
@@ -20,6 +22,8 @@ Mục tiêu, tính năng, ảnh minh họa, lựa chọn thiết kế và cách 
 ```
 
 Link repository phải dẫn tới source đúng của dự án. ID cần duy nhất; bản dịch dùng cùng ID. Có thể dùng README có frontmatter làm nội dung dự án; giữ các file đó khi cập nhật bài.
+
+Danh mục cây chỉ đường xếp dự án mới trước theo `publishedAt` hoặc `date`. Dự án cũ chưa có ngày dùng `year`; các dự án cùng năm và không có ngày giữ thứ tự hiện có. Dùng ngày xuất bản thực tế khi thêm dự án mới. Danh sách tự cuộn khi có nhiều dự án; không cần sửa giao diện để thêm bảng chỉ đường.
 
 ## Gửi thay đổi
 
